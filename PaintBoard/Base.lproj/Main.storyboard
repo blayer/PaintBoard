@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,63 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="light-wood-texture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VYq-kf-UQw">
+                                <rect key="frame" x="-218" y="-158" width="818" height="894"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-xo-bZf">
+                                <rect key="frame" x="67" y="103" width="459" height="409"/>
+                                <connections>
+                                    <segue destination="5V0-6x-qPb" kind="embed" id="PsJ-84-mV5"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mnl-xo-bZf" secondAttribute="bottom" constant="50" id="GGR-mf-vcA"/>
+                            <constraint firstItem="mnl-xo-bZf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="HG2-mo-B52"/>
+                            <constraint firstItem="mnl-xo-bZf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="fdF-PF-b9l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mnl-xo-bZf" secondAttribute="trailing" constant="10" id="rt3-Lm-OY1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="227" y="430"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dq8-cB-1qP">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5V0-6x-qPb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VMj-bE-UaO"/>
+                        <viewControllerLayoutGuide type="bottom" id="fpx-PF-LqZ"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9fw-G7-065">
+                        <rect key="frame" x="0.0" y="0.0" width="459" height="409"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DrawPaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mTc-gH-ZpI">
+                                <rect key="frame" x="0.0" y="0.0" width="459" height="409"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mTc-gH-ZpI" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" id="99Y-sT-7ZH"/>
+                            <constraint firstItem="fpx-PF-LqZ" firstAttribute="top" secondItem="mTc-gH-ZpI" secondAttribute="bottom" id="GWc-Tb-19Y"/>
+                            <constraint firstItem="mTc-gH-ZpI" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" id="NSN-WX-FoZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mTc-gH-ZpI" secondAttribute="trailing" id="gRS-6N-3Cy"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OpU-du-YlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894.5" y="429.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DrawPaper.jpg" width="1280" height="1696"/>
+        <image name="light-wood-texture.jpg" width="1280" height="1920"/>
+    </resources>
 </document>

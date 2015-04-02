@@ -15,6 +15,9 @@
 		831A701E1ACDD98E002218B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831A701D1ACDD98E002218B9 /* Images.xcassets */; };
 		831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831A701F1ACDD98E002218B9 /* LaunchScreen.xib */; };
 		831A702D1ACDD98E002218B9 /* PaintBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A702C1ACDD98E002218B9 /* PaintBoardTests.m */; };
+		831A70381ACDDBF2002218B9 /* light-wood-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */; };
+		831A703B1ACDDF21002218B9 /* DrawPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A703A1ACDDF21002218B9 /* DrawPageViewController.m */; };
+		831A703D1ACDE00B002218B9 /* DrawPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 831A703C1ACDE00B002218B9 /* DrawPaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		831A70261ACDD98E002218B9 /* PaintBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A702B1ACDD98E002218B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831A702C1ACDD98E002218B9 /* PaintBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintBoardTests.m; sourceTree = "<group>"; };
+		831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-wood-texture.jpg"; sourceTree = "<group>"; };
+		831A70391ACDDF21002218B9 /* DrawPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageViewController.h; sourceTree = "<group>"; };
+		831A703A1ACDDF21002218B9 /* DrawPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageViewController.m; sourceTree = "<group>"; };
+		831A703C1ACDE00B002218B9 /* DrawPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrawPaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +90,13 @@
 		831A700C1ACDD98E002218B9 /* PaintBoard */ = {
 			isa = PBXGroup;
 			children = (
+				831A70361ACDDBB8002218B9 /* resource */,
 				831A70111ACDD98E002218B9 /* AppDelegate.h */,
 				831A70121ACDD98E002218B9 /* AppDelegate.m */,
 				831A70171ACDD98E002218B9 /* ViewController.h */,
 				831A70181ACDD98E002218B9 /* ViewController.m */,
+				831A70391ACDDF21002218B9 /* DrawPageViewController.h */,
+				831A703A1ACDDF21002218B9 /* DrawPageViewController.m */,
 				831A701A1ACDD98E002218B9 /* Main.storyboard */,
 				831A701D1ACDD98E002218B9 /* Images.xcassets */,
 				831A701F1ACDD98E002218B9 /* LaunchScreen.xib */,
@@ -120,6 +130,15 @@
 				831A702B1ACDD98E002218B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		831A70361ACDDBB8002218B9 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				831A703C1ACDE00B002218B9 /* DrawPaper.jpg */,
+				831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A701C1ACDD98E002218B9 /* Main.storyboard in Resources */,
+				831A70381ACDDBF2002218B9 /* light-wood-texture.jpg in Resources */,
 				831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */,
+				831A703D1ACDE00B002218B9 /* DrawPaper.jpg in Resources */,
 				831A701E1ACDD98E002218B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +246,7 @@
 				831A70131ACDD98E002218B9 /* AppDelegate.m in Sources */,
 				831A70101ACDD98E002218B9 /* main.m in Sources */,
 				831A70191ACDD98E002218B9 /* ViewController.m in Sources */,
+				831A703B1ACDDF21002218B9 /* DrawPageViewController.m in Sources */,
 				831A70161ACDD98E002218B9 /* PaintBoard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

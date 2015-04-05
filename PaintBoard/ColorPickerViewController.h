@@ -10,4 +10,8 @@
 
 @interface ColorPickerViewController : UIViewController
 
+
+
+- (IBAction)pickColor:(id)sender;
+
 @end

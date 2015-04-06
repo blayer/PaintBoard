@@ -8,3 +8,4 @@ You can directly download it or check it out from github repository.
 To run this applicatin, please install all third-party libaryies with [CocoaPods](http://cocoapods.org/) by:
   
  `pod install`
+

@@ -1,6 +1,18 @@
 //
 //  DrawPageViewController.m
-//  PaintBoard
+//  This ViewController implements the main drawing interface of GoSketch.
+//  The interface has three parts: function bar, draw panel, and color setting bar.
+//
+//  The function bar includes: 'backButton' to get back to main page,
+//  'clearButton' to reset drawpanel as default blank page,
+//  and 'saveButton' to save drawing in the photo album.
+//
+//  The draw panel includes two imageView: mainImage, and tempDrawImage.
+//  In every touch movement, tempDrawImage is drawn by touch. When touch action finished,
+//  tempDrawImage is added onto mainImage.
+//
+//  The color seting bar has 6 pre-define color, and a customized color. The customized color is implemented
+//  by a third-party liabray "FCColorPickerViewController" at: https://github.com/fcanas/ios-color-picker
 //
 //  Created by Changkun Zhao on 4/2/15.
 //  Copyright (c) 2015 Changkun Zhao. All rights reserved.
@@ -15,10 +27,10 @@
 @interface DrawPageViewController ()<FCColorPickerViewControllerDelegate>
 @property UIColor *drawColor;
 @property (nonatomic, copy) UIColor *customizeColor;
-@property UIImage *penImage;
-@property UIImage *ereasrImage;
-@property CGFloat *screenWidth;
-@property CGFloat *screenHeight;
+@property UIImage *penImage;                 //image of pen figure
+@property UIImage *ereasrImage;              //image of eraser figure
+@property CGFloat *screenWidth;              //widthe of screen
+@property CGFloat *screenHeight;             // height of screen
 
 @end
 
@@ -91,18 +103,22 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
     mouseSwiped = NO;
     UITouch *touch = [touches anyObject];
     lastPoint = [touch locationInView:self.view];
+    
+    //visualize drawing pen
     CGFloat deltaX=0.5*self.penImageView.frame.size.width;
-     CGFloat deltaY=0.5*self.penImageView.frame.size.height;
+    CGFloat deltaY=0.5*self.penImageView.frame.size.height;
     self.penImageView.center=CGPointMake(lastPoint.x+deltaX, lastPoint.y-deltaY);
     
 }
-
+  /*TODO: the drawing function need to be improved with more drawing styles
+   * and more smoother curves. Future work could use 'UIbezierpath' to visuallize
+   * more smoother curves and curving algorithms.
+   */
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     
     mouseSwiped = YES;
@@ -165,6 +181,8 @@
 }
 
 - (IBAction)backAction:(id)sender {
+    
+    // alert to confirm leaving current page
         UIAlertView *backAlert = [[UIAlertView alloc] initWithTitle:@"Do you want to leave this page?"
                                                           message:@"You drawing be will lost after leaving this page."
                                                          delegate:self
@@ -176,13 +194,17 @@
 }
 
 - (IBAction)saveAction:(id)sender {
+    // save to album as a figure
     UIImageWriteToSavedPhotosAlbum(self.mainImage.image, nil, nil, nil);
-    ActivityHub *hub=[[ActivityHub alloc ]initWithFrame:CGRectMake(0, 0,170, 170)]; //need to be adjusted
+    
+    // activity hub in the middle
+    ActivityHub *hub=[[ActivityHub alloc ]initWithFrame:CGRectMake(0, 0,170, 170)];
     hub.center = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
     [hub setLabelText:@"Saved to album"];
     [hub setImage:[UIImage imageNamed:@"Checkmark-64.png"]];
-    //[hub showActivityView];
     [self.view addSubview:hub];
+    
+    //delay 1.5 seconds for display activity hub
     double delayInSeconds = 1.5;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
@@ -191,7 +213,7 @@
     
 }
 
-
+  // erase action, setting pen color as background color
 - (IBAction)eraseAction:(id)sender {
     self.drawColor=PBWhite;
     [self.drawColor getRed:&red green:&green blue:&blue alpha:&opacity];
@@ -206,7 +228,7 @@
 }
 
 
-
+  // selecting six predefined color, six button are tagged in the storyboard from 0 to 5.
 - (IBAction)colorSelected:(id)sender {
    
     UIButton * PressedButton = (UIButton*)sender;
@@ -233,7 +255,7 @@
             break;
                     }
     
-     [self.drawColor getRed:&red green:&green blue:&blue alpha:&opacity];
+    [self.drawColor getRed:&red green:&green blue:&blue alpha:&opacity];
     [self.penImageView setImage:self.penImage];
     
 }

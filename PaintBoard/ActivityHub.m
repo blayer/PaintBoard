@@ -1,6 +1,8 @@
 //
 //  ActivityHub.m
-//  HHeal
+//
+//  implementing ActivityHub class. Reused from HHeal 1.10.
+//  This class implements a new design of activity indicator. 
 //
 //  Created by Changkun Zhao on 10/6/14.
 //  Copyright (c) 2014 Changkun Zhao. All rights reserved.
@@ -10,13 +12,7 @@
 
 @implementation ActivityHub
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

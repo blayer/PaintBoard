@@ -1,6 +1,8 @@
 //
 //  MainSelectionViewController.m
-//  PaintBoard
+//
+//  Main Selection page with three selections: 1) start a new empty draw, 2) load an image from album for editing,
+//  3) go to the about page.
 //
 //  Created by Changkun Zhao on 4/2/15.
 //  Copyright (c) 2015 Changkun Zhao. All rights reserved.
@@ -21,13 +23,6 @@
 @implementation MainSelectionViewController
 
 - (void)viewDidLoad {
-    [self.loadImageButton.layer setMasksToBounds:YES];
-    [self.loadImageButton.layer setCornerRadius:80.0f];
-    [self.emptyImageButton.layer setMasksToBounds:YES];
-    [self.emptyImageButton.layer setCornerRadius:80.0f];
-    
-    [self.emptyImageButton setBackgroundColor:PBRobotGreen];
-    [self.loadImageButton setBackgroundColor:PBRobotGreen];
     
     self.backgroundImage=[[UIImage alloc] init];
     [super viewDidLoad];
@@ -48,6 +43,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+//creating  a blank image with default background color
 - (UIImage *)imageWithColor:(UIColor *)color
 {
     CGRect rect = CGRectMake(0.0f, 0.0f, 600.0f, 800.0f);
@@ -88,7 +85,7 @@
     }
     }
 
-
+// start a new empty drawing
 - (IBAction)emptyButtonClicked:(id)sender {
     
     UIImage *image=[self imageWithColor:PBWhite];
@@ -96,7 +93,7 @@
     [self performSegueWithIdentifier: @"mainSelectSegue" sender: self];
 
 }
-
+// load iamge from album
 - (IBAction)loadButtionClicked:(id)sender {
     
     UIImagePickerController *imagePickerController = [[UIImagePickerController alloc]init];

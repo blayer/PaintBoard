@@ -14,22 +14,22 @@
 		831A701E1ACDD98E002218B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831A701D1ACDD98E002218B9 /* Images.xcassets */; };
 		831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831A701F1ACDD98E002218B9 /* LaunchScreen.xib */; };
 		831A702D1ACDD98E002218B9 /* PaintBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A702C1ACDD98E002218B9 /* PaintBoardTests.m */; };
-		831A70381ACDDBF2002218B9 /* light-wood-texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */; };
 		831A703B1ACDDF21002218B9 /* DrawPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A703A1ACDDF21002218B9 /* DrawPageViewController.m */; };
-		831A703D1ACDE00B002218B9 /* DrawPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 831A703C1ACDE00B002218B9 /* DrawPaper.jpg */; };
-		831A703F1ACDE23D002218B9 /* WhitePaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 831A703E1ACDE23D002218B9 /* WhitePaper.jpg */; };
 		8399D8371AD02879007AF60B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8399D8361AD02879007AF60B /* CoreGraphics.framework */; };
 		8399D8391AD028A0007AF60B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8399D8381AD028A0007AF60B /* QuartzCore.framework */; };
 		8399D83B1AD04100007AF60B /* Eraser-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 8399D83A1AD040FF007AF60B /* Eraser-64.png */; };
-		83B3978C1ACE226400D33C55 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83B3978B1ACE226400D33C55 /* launch.jpg */; };
 		83B3978E1ACE290600D33C55 /* Marker Pen-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B3978D1ACE290600D33C55 /* Marker Pen-50.png */; };
 		83B397911ACE3E8800D33C55 /* MainSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B397901ACE3E8800D33C55 /* MainSelectionViewController.m */; };
 		83B397941ACEE86600D33C55 /* ActivityHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B397931ACEE86600D33C55 /* ActivityHub.m */; };
 		83B397971ACEEC3300D33C55 /* Checkmark-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B397961ACEEC3300D33C55 /* Checkmark-64.png */; };
-		83B3979B1ACF164E00D33C55 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B3979A1ACF164E00D33C55 /* ColorPickerViewController.m */; };
 		83B3979D1ACF365C00D33C55 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83B3979C1ACF365C00D33C55 /* bar.jpg */; };
+		83CB60031AD20BA600C39039 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CB60021AD20BA600C39039 /* wood.jpg */; };
+		83CB60071AD211A400C39039 /* PBHandFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CB60061AD211A400C39039 /* PBHandFont.ttf */; };
+		83CB600B1AD216CA00C39039 /* Info-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CB600A1AD216CA00C39039 /* Info-50.png */; };
+		83CB600D1AD21B4900C39039 /* WhitePaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CB600C1AD21B4900C39039 /* WhitePaper.jpg */; };
+		83CE6C361AD2DD12008E9FF5 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C341AD2DD12008E9FF5 /* screenshot1.png */; };
+		83CE6C371AD2DD12008E9FF5 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C351AD2DD12008E9FF5 /* screenshot2.png */; };
 		83E89AC31AD062BB00B4A808 /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC21AD062BB00B4A808 /* SliderKnob.png */; };
-		83E89AC51AD0661600B4A808 /* istudio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC41AD0661600B4A808 /* istudio.jpg */; };
 		83E89AC71AD0793200B4A808 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC61AD0793200B4A808 /* knob.png */; };
 		83E89AC91AD07C4400B4A808 /* Marker Pen-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */; };
 		83E89ACD1AD07E0A00B4A808 /* Home Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89ACA1AD07E0A00B4A808 /* Home Filled-50.png */; };
@@ -37,9 +37,10 @@
 		83E89ACF1AD07E0A00B4A808 /* Save As Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89ACC1AD07E0A00B4A808 /* Save As Filled-50.png */; };
 		83E89AD11AD08CF200B4A808 /* Paint Palette-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AD01AD08CF200B4A808 /* Paint Palette-50.png */; };
 		83E89AD31AD0909E00B4A808 /* Eraser-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AD21AD0909E00B4A808 /* Eraser-50.png */; };
-		83E89AD61AD09B4F00B4A808 /* Add Image-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AD41AD09B4F00B4A808 /* Add Image-100.png */; };
-		83E89AD71AD09B4F00B4A808 /* Edit Image-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AD51AD09B4F00B4A808 /* Edit Image-100.png */; };
 		83E89AD91AD0D7C800B4A808 /* Checkmark Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AD81AD0D7C800B4A808 /* Checkmark Filled-50.png */; };
+		83E89ADE1AD1F28500B4A808 /* launch 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83E89ADA1AD1F28500B4A808 /* launch 2.jpg */; };
+		83E89ADF1AD1F28500B4A808 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89ADB1AD1F28500B4A808 /* new.png */; };
+		83E89AE01AD1F28500B4A808 /* past.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89ADC1AD1F28500B4A808 /* past.png */; };
 		D3AF057C3ACC729772AB1C58 /* libPods-PaintBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDF89775651395E9BC540D8 /* libPods-PaintBoard.a */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +57,7 @@
 /* Begin PBXFileReference section */
 		1EDF89775651395E9BC540D8 /* libPods-PaintBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaintBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		374FD14D317543E6227E01E7 /* Pods-PaintBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaintBoard/Pods-PaintBoard.debug.xcconfig"; sourceTree = "<group>"; };
-		831A700A1ACDD98E002218B9 /* PaintBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831A700A1ACDD98E002218B9 /* GoSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A700E1ACDD98E002218B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831A700F1ACDD98E002218B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		831A70111ACDD98E002218B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,18 +66,14 @@
 		831A701B1ACDD98E002218B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831A701D1ACDD98E002218B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		831A70201ACDD98E002218B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		831A70261ACDD98E002218B9 /* PaintBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831A70261ACDD98E002218B9 /* GoSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A702B1ACDD98E002218B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831A702C1ACDD98E002218B9 /* PaintBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintBoardTests.m; sourceTree = "<group>"; };
-		831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-wood-texture.jpg"; sourceTree = "<group>"; };
 		831A70391ACDDF21002218B9 /* DrawPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageViewController.h; sourceTree = "<group>"; };
 		831A703A1ACDDF21002218B9 /* DrawPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageViewController.m; sourceTree = "<group>"; };
-		831A703C1ACDE00B002218B9 /* DrawPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrawPaper.jpg; sourceTree = "<group>"; };
-		831A703E1ACDE23D002218B9 /* WhitePaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhitePaper.jpg; sourceTree = "<group>"; };
 		8399D8361AD02879007AF60B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8399D8381AD028A0007AF60B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8399D83A1AD040FF007AF60B /* Eraser-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eraser-64.png"; sourceTree = "<group>"; };
-		83B3978B1ACE226400D33C55 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
 		83B3978D1ACE290600D33C55 /* Marker Pen-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Marker Pen-50.png"; path = "../resource/Marker Pen-50.png"; sourceTree = "<group>"; };
 		83B3978F1ACE3E8800D33C55 /* MainSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSelectionViewController.h; sourceTree = "<group>"; };
 		83B397901ACE3E8800D33C55 /* MainSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSelectionViewController.m; sourceTree = "<group>"; };
@@ -84,11 +81,14 @@
 		83B397931ACEE86600D33C55 /* ActivityHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityHub.m; sourceTree = "<group>"; };
 		83B397961ACEEC3300D33C55 /* Checkmark-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-64.png"; sourceTree = "<group>"; };
 		83B397981ACEEEC700D33C55 /* PBColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBColors.h; sourceTree = "<group>"; };
-		83B397991ACF164E00D33C55 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
-		83B3979A1ACF164E00D33C55 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
 		83B3979C1ACF365C00D33C55 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		83CB60021AD20BA600C39039 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		83CB60061AD211A400C39039 /* PBHandFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PBHandFont.ttf; sourceTree = "<group>"; };
+		83CB600A1AD216CA00C39039 /* Info-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-50.png"; sourceTree = "<group>"; };
+		83CB600C1AD21B4900C39039 /* WhitePaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhitePaper.jpg; sourceTree = "<group>"; };
+		83CE6C341AD2DD12008E9FF5 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		83CE6C351AD2DD12008E9FF5 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		83E89AC21AD062BB00B4A808 /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
-		83E89AC41AD0661600B4A808 /* istudio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istudio.jpg; sourceTree = "<group>"; };
 		83E89AC61AD0793200B4A808 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
 		83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Pen-white.png"; sourceTree = "<group>"; };
 		83E89ACA1AD07E0A00B4A808 /* Home Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled-50.png"; sourceTree = "<group>"; };
@@ -96,9 +96,10 @@
 		83E89ACC1AD07E0A00B4A808 /* Save As Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save As Filled-50.png"; sourceTree = "<group>"; };
 		83E89AD01AD08CF200B4A808 /* Paint Palette-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paint Palette-50.png"; sourceTree = "<group>"; };
 		83E89AD21AD0909E00B4A808 /* Eraser-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eraser-50.png"; sourceTree = "<group>"; };
-		83E89AD41AD09B4F00B4A808 /* Add Image-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Image-100.png"; sourceTree = "<group>"; };
-		83E89AD51AD09B4F00B4A808 /* Edit Image-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit Image-100.png"; sourceTree = "<group>"; };
 		83E89AD81AD0D7C800B4A808 /* Checkmark Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark Filled-50.png"; sourceTree = "<group>"; };
+		83E89ADA1AD1F28500B4A808 /* launch 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch 2.jpg"; sourceTree = "<group>"; };
+		83E89ADB1AD1F28500B4A808 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		83E89ADC1AD1F28500B4A808 /* past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = past.png; sourceTree = "<group>"; };
 		A2DB6B46A16B307EFA35E8E9 /* Pods-PaintBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaintBoard/Pods-PaintBoard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,8 +148,8 @@
 		831A700B1ACDD98E002218B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				831A700A1ACDD98E002218B9 /* PaintBoard.app */,
-				831A70261ACDD98E002218B9 /* PaintBoardTests.xctest */,
+				831A700A1ACDD98E002218B9 /* GoSketch.app */,
+				831A70261ACDD98E002218B9 /* GoSketchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,8 +168,6 @@
 				831A703A1ACDDF21002218B9 /* DrawPageViewController.m */,
 				83B3978F1ACE3E8800D33C55 /* MainSelectionViewController.h */,
 				83B397901ACE3E8800D33C55 /* MainSelectionViewController.m */,
-				83B397991ACF164E00D33C55 /* ColorPickerViewController.h */,
-				83B3979A1ACF164E00D33C55 /* ColorPickerViewController.m */,
 				831A701A1ACDD98E002218B9 /* Main.storyboard */,
 				831A701D1ACDD98E002218B9 /* Images.xcassets */,
 				831A701F1ACDD98E002218B9 /* LaunchScreen.xib */,
@@ -207,13 +206,16 @@
 		831A70361ACDDBB8002218B9 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				83CE6C341AD2DD12008E9FF5 /* screenshot1.png */,
+				83CE6C351AD2DD12008E9FF5 /* screenshot2.png */,
+				83CB600C1AD21B4900C39039 /* WhitePaper.jpg */,
+				83CB60061AD211A400C39039 /* PBHandFont.ttf */,
+				83CB60021AD20BA600C39039 /* wood.jpg */,
+				83E89ADA1AD1F28500B4A808 /* launch 2.jpg */,
+				83E89ADB1AD1F28500B4A808 /* new.png */,
+				83E89ADC1AD1F28500B4A808 /* past.png */,
 				83E89AC61AD0793200B4A808 /* knob.png */,
-				83E89AC41AD0661600B4A808 /* istudio.jpg */,
 				83B3979C1ACF365C00D33C55 /* bar.jpg */,
-				83B3978B1ACE226400D33C55 /* launch.jpg */,
-				831A703E1ACDE23D002218B9 /* WhitePaper.jpg */,
-				831A703C1ACDE00B002218B9 /* DrawPaper.jpg */,
-				831A70371ACDDBF2002218B9 /* light-wood-texture.jpg */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -221,9 +223,8 @@
 		83B397951ACEEC3300D33C55 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				83CB600A1AD216CA00C39039 /* Info-50.png */,
 				83E89AD81AD0D7C800B4A808 /* Checkmark Filled-50.png */,
-				83E89AD41AD09B4F00B4A808 /* Add Image-100.png */,
-				83E89AD51AD09B4F00B4A808 /* Edit Image-100.png */,
 				83E89AD21AD0909E00B4A808 /* Eraser-50.png */,
 				83E89AD01AD08CF200B4A808 /* Paint Palette-50.png */,
 				83E89ACA1AD07E0A00B4A808 /* Home Filled-50.png */,
@@ -250,9 +251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		831A70091ACDD98E002218B9 /* PaintBoard */ = {
+		831A70091ACDD98E002218B9 /* GoSketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831A70301ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "PaintBoard" */;
+			buildConfigurationList = 831A70301ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "GoSketch" */;
 			buildPhases = (
 				81BD81EB49D68338535B4FA8 /* Check Pods Manifest.lock */,
 				831A70061ACDD98E002218B9 /* Sources */,
@@ -264,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = PaintBoard;
+			name = GoSketch;
 			productName = PaintBoard;
-			productReference = 831A700A1ACDD98E002218B9 /* PaintBoard.app */;
+			productReference = 831A700A1ACDD98E002218B9 /* GoSketch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		831A70251ACDD98E002218B9 /* PaintBoardTests */ = {
+		831A70251ACDD98E002218B9 /* GoSketchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831A70331ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "PaintBoardTests" */;
+			buildConfigurationList = 831A70331ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "GoSketchTests" */;
 			buildPhases = (
 				831A70221ACDD98E002218B9 /* Sources */,
 				831A70231ACDD98E002218B9 /* Frameworks */,
@@ -282,9 +283,9 @@
 			dependencies = (
 				831A70281ACDD98E002218B9 /* PBXTargetDependency */,
 			);
-			name = PaintBoardTests;
+			name = GoSketchTests;
 			productName = PaintBoardTests;
-			productReference = 831A70261ACDD98E002218B9 /* PaintBoardTests.xctest */;
+			productReference = 831A70261ACDD98E002218B9 /* GoSketchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -298,6 +299,7 @@
 				TargetAttributes = {
 					831A70091ACDD98E002218B9 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XFC2M37K3K;
 					};
 					831A70251ACDD98E002218B9 = {
 						CreatedOnToolsVersion = 6.2;
@@ -305,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 831A70051ACDD98E002218B9 /* Build configuration list for PBXProject "PaintBoard" */;
+			buildConfigurationList = 831A70051ACDD98E002218B9 /* Build configuration list for PBXProject "GoSketch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -318,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				831A70091ACDD98E002218B9 /* PaintBoard */,
-				831A70251ACDD98E002218B9 /* PaintBoardTests */,
+				831A70091ACDD98E002218B9 /* GoSketch */,
+				831A70251ACDD98E002218B9 /* GoSketchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,26 +332,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E89ACD1AD07E0A00B4A808 /* Home Filled-50.png in Resources */,
-				83B3978C1ACE226400D33C55 /* launch.jpg in Resources */,
+				83E89AE01AD1F28500B4A808 /* past.png in Resources */,
 				83B3979D1ACF365C00D33C55 /* bar.jpg in Resources */,
 				83E89ACE1AD07E0A00B4A808 /* Reload Filled-50.png in Resources */,
-				83E89AD71AD09B4F00B4A808 /* Edit Image-100.png in Resources */,
+				83CB600B1AD216CA00C39039 /* Info-50.png in Resources */,
 				831A701C1ACDD98E002218B9 /* Main.storyboard in Resources */,
-				83E89AD61AD09B4F00B4A808 /* Add Image-100.png in Resources */,
-				831A70381ACDDBF2002218B9 /* light-wood-texture.jpg in Resources */,
+				83E89ADE1AD1F28500B4A808 /* launch 2.jpg in Resources */,
 				83B3978E1ACE290600D33C55 /* Marker Pen-50.png in Resources */,
-				831A703F1ACDE23D002218B9 /* WhitePaper.jpg in Resources */,
+				83CE6C371AD2DD12008E9FF5 /* screenshot2.png in Resources */,
 				83E89AD91AD0D7C800B4A808 /* Checkmark Filled-50.png in Resources */,
+				83CE6C361AD2DD12008E9FF5 /* screenshot1.png in Resources */,
 				831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */,
 				8399D83B1AD04100007AF60B /* Eraser-64.png in Resources */,
 				83E89AD11AD08CF200B4A808 /* Paint Palette-50.png in Resources */,
+				83E89ADF1AD1F28500B4A808 /* new.png in Resources */,
 				83B397971ACEEC3300D33C55 /* Checkmark-64.png in Resources */,
 				83E89AD31AD0909E00B4A808 /* Eraser-50.png in Resources */,
 				83E89AC71AD0793200B4A808 /* knob.png in Resources */,
-				831A703D1ACDE00B002218B9 /* DrawPaper.jpg in Resources */,
+				83CB60031AD20BA600C39039 /* wood.jpg in Resources */,
 				83E89ACF1AD07E0A00B4A808 /* Save As Filled-50.png in Resources */,
+				83CB600D1AD21B4900C39039 /* WhitePaper.jpg in Resources */,
+				83CB60071AD211A400C39039 /* PBHandFont.ttf in Resources */,
 				83E89AC31AD062BB00B4A808 /* SliderKnob.png in Resources */,
-				83E89AC51AD0661600B4A808 /* istudio.jpg in Resources */,
 				831A701E1ACDD98E002218B9 /* Images.xcassets in Resources */,
 				83E89AC91AD07C4400B4A808 /* Marker Pen-white.png in Resources */,
 			);
@@ -403,7 +407,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A70131ACDD98E002218B9 /* AppDelegate.m in Sources */,
-				83B3979B1ACF164E00D33C55 /* ColorPickerViewController.m in Sources */,
 				831A70101ACDD98E002218B9 /* main.m in Sources */,
 				83B397941ACEE86600D33C55 /* ActivityHub.m in Sources */,
 				83B397911ACE3E8800D33C55 /* MainSelectionViewController.m in Sources */,
@@ -425,7 +428,7 @@
 /* Begin PBXTargetDependency section */
 		831A70281ACDD98E002218B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 831A70091ACDD98E002218B9 /* PaintBoard */;
+			target = 831A70091ACDD98E002218B9 /* GoSketch */;
 			targetProxy = 831A70271ACDD98E002218B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,10 +536,11 @@
 			baseConfigurationReference = 374FD14D317543E6227E01E7 /* Pods-PaintBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PaintBoard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoSketch;
 			};
 			name = Debug;
 		};
@@ -545,10 +549,11 @@
 			baseConfigurationReference = A2DB6B46A16B307EFA35E8E9 /* Pods-PaintBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PaintBoard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoSketch;
 			};
 			name = Release;
 		};
@@ -566,7 +571,7 @@
 				);
 				INFOPLIST_FILE = PaintBoardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoSketchTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintBoard.app/PaintBoard";
 			};
 			name = Debug;
@@ -581,7 +586,7 @@
 				);
 				INFOPLIST_FILE = PaintBoardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoSketchTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintBoard.app/PaintBoard";
 			};
 			name = Release;
@@ -589,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		831A70051ACDD98E002218B9 /* Build configuration list for PBXProject "PaintBoard" */ = {
+		831A70051ACDD98E002218B9 /* Build configuration list for PBXProject "GoSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831A702E1ACDD98E002218B9 /* Debug */,
@@ -598,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831A70301ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "PaintBoard" */ = {
+		831A70301ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "GoSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831A70311ACDD98E002218B9 /* Debug */,
@@ -607,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831A70331ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "PaintBoardTests" */ = {
+		831A70331ACDD98E002218B9 /* Build configuration list for PBXNativeTarget "GoSketchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831A70341ACDD98E002218B9 /* Debug */,

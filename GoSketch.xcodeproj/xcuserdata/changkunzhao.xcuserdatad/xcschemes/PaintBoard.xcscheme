@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "831A70091ACDD98E002218B9"
-               BuildableName = "PaintBoard.app"
-               BlueprintName = "PaintBoard"
-               ReferencedContainer = "container:PaintBoard.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "831A70251ACDD98E002218B9"
-               BuildableName = "PaintBoardTests.xctest"
-               BlueprintName = "PaintBoardTests"
-               ReferencedContainer = "container:PaintBoard.xcodeproj">
+               BuildableName = "GoSketch.app"
+               BlueprintName = "GoSketch"
+               ReferencedContainer = "container:GoSketch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "831A70251ACDD98E002218B9"
-               BuildableName = "PaintBoardTests.xctest"
-               BlueprintName = "PaintBoardTests"
-               ReferencedContainer = "container:PaintBoard.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831A70091ACDD98E002218B9"
-            BuildableName = "PaintBoard.app"
-            BlueprintName = "PaintBoard"
-            ReferencedContainer = "container:PaintBoard.xcodeproj">
+            BuildableName = "GoSketch.app"
+            BlueprintName = "GoSketch"
+            ReferencedContainer = "container:GoSketch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831A70091ACDD98E002218B9"
-            BuildableName = "PaintBoard.app"
-            BlueprintName = "PaintBoard"
-            ReferencedContainer = "container:PaintBoard.xcodeproj">
+            BuildableName = "GoSketch.app"
+            BlueprintName = "GoSketch"
+            ReferencedContainer = "container:GoSketch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "831A70091ACDD98E002218B9"
-            BuildableName = "PaintBoard.app"
-            BlueprintName = "PaintBoard"
-            ReferencedContainer = "container:PaintBoard.xcodeproj">
+            BuildableName = "GoSketch.app"
+            BlueprintName = "GoSketch"
+            ReferencedContainer = "container:GoSketch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -29,6 +29,8 @@
 		83CB600D1AD21B4900C39039 /* WhitePaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CB600C1AD21B4900C39039 /* WhitePaper.jpg */; };
 		83CE6C361AD2DD12008E9FF5 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C341AD2DD12008E9FF5 /* screenshot1.png */; };
 		83CE6C371AD2DD12008E9FF5 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C351AD2DD12008E9FF5 /* screenshot2.png */; };
+		83CE6C3A1AD2ED91008E9FF5 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C381AD2ED91008E9FF5 /* screenshot3.png */; };
+		83CE6C3B1AD2ED91008E9FF5 /* screenshot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C391AD2ED91008E9FF5 /* screenshot4.png */; };
 		83E89AC31AD062BB00B4A808 /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC21AD062BB00B4A808 /* SliderKnob.png */; };
 		83E89AC71AD0793200B4A808 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC61AD0793200B4A808 /* knob.png */; };
 		83E89AC91AD07C4400B4A808 /* Marker Pen-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */; };
@@ -88,6 +90,8 @@
 		83CB600C1AD21B4900C39039 /* WhitePaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhitePaper.jpg; sourceTree = "<group>"; };
 		83CE6C341AD2DD12008E9FF5 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 		83CE6C351AD2DD12008E9FF5 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		83CE6C381AD2ED91008E9FF5 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		83CE6C391AD2ED91008E9FF5 /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot4.png; sourceTree = "<group>"; };
 		83E89AC21AD062BB00B4A808 /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
 		83E89AC61AD0793200B4A808 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
 		83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Pen-white.png"; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 		831A70361ACDDBB8002218B9 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				83CE6C381AD2ED91008E9FF5 /* screenshot3.png */,
+				83CE6C391AD2ED91008E9FF5 /* screenshot4.png */,
 				83CE6C341AD2DD12008E9FF5 /* screenshot1.png */,
 				83CE6C351AD2DD12008E9FF5 /* screenshot2.png */,
 				83CB600C1AD21B4900C39039 /* WhitePaper.jpg */,
@@ -343,11 +349,13 @@
 				83E89AD91AD0D7C800B4A808 /* Checkmark Filled-50.png in Resources */,
 				83CE6C361AD2DD12008E9FF5 /* screenshot1.png in Resources */,
 				831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */,
+				83CE6C3B1AD2ED91008E9FF5 /* screenshot4.png in Resources */,
 				8399D83B1AD04100007AF60B /* Eraser-64.png in Resources */,
 				83E89AD11AD08CF200B4A808 /* Paint Palette-50.png in Resources */,
 				83E89ADF1AD1F28500B4A808 /* new.png in Resources */,
 				83B397971ACEEC3300D33C55 /* Checkmark-64.png in Resources */,
 				83E89AD31AD0909E00B4A808 /* Eraser-50.png in Resources */,
+				83CE6C3A1AD2ED91008E9FF5 /* screenshot3.png in Resources */,
 				83E89AC71AD0793200B4A808 /* knob.png in Resources */,
 				83CB60031AD20BA600C39039 /* wood.jpg in Resources */,
 				83E89ACF1AD07E0A00B4A808 /* Save As Filled-50.png in Resources */,

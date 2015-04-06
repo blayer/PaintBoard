@@ -8,7 +8,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
 
-@interface MainSelectionViewController : UIViewController<UIImagePickerControllerDelegate>
+@interface MainSelectionViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *emptyImageButton;
 

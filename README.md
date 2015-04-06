@@ -9,3 +9,5 @@ To run this applicatin, please install all third-party libaryies with [CocoaPods
   
  `pod install`
 
+#screenshots
+![1](/PaintBoard/resource/screenshot3.png) ![2](/PaintBoard/resource/screenshot4.png)

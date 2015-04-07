@@ -184,7 +184,7 @@
     
     // alert to confirm leaving current page
         UIAlertView *backAlert = [[UIAlertView alloc] initWithTitle:@"Do you want to leave this page?"
-                                                          message:@"You drawing be will lost after leaving this page."
+                                                          message:@"Your drawing will be lost after leaving this page."
                                                          delegate:self
                                                 cancelButtonTitle:@"No"
                                                 otherButtonTitles:@"Yes", nil];

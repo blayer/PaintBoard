@@ -1,7 +1,7 @@
-# PaintBoard
-PaintBoard (also renamed as GoSketch for apple store) is an iOS application for simple drawings.   
-It uses 'CGContext' libary to add lines bettween two redered points.   
-It also uses [FCColorPickerViewController] (https://github.com/fcanas/ios-color-picker) to customize colors.  
+# PaintBoard(removed) 
+PaintBoard has been moved to a new repository. please to go  to  
+[GoSketch](https://github.com/blayer/PaintBoard)
+
 
 #Installation
 You can directly download it or check it out from github repository.   

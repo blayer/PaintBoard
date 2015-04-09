@@ -10,7 +10,7 @@
 		831A70101ACDD98E002218B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A700F1ACDD98E002218B9 /* main.m */; };
 		831A70131ACDD98E002218B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A70121ACDD98E002218B9 /* AppDelegate.m */; };
 		831A70161ACDD98E002218B9 /* PaintBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 831A70141ACDD98E002218B9 /* PaintBoard.xcdatamodeld */; };
-		831A701C1ACDD98E002218B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831A701A1ACDD98E002218B9 /* Main.storyboard */; };
+		831A701C1ACDD98E002218B9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831A701A1ACDD98E002218B9 /* Main_iPhone.storyboard */; };
 		831A701E1ACDD98E002218B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831A701D1ACDD98E002218B9 /* Images.xcassets */; };
 		831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831A701F1ACDD98E002218B9 /* LaunchScreen.xib */; };
 		831A702D1ACDD98E002218B9 /* PaintBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A702C1ACDD98E002218B9 /* PaintBoardTests.m */; };
@@ -31,6 +31,7 @@
 		83CE6C371AD2DD12008E9FF5 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C351AD2DD12008E9FF5 /* screenshot2.png */; };
 		83CE6C3A1AD2ED91008E9FF5 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C381AD2ED91008E9FF5 /* screenshot3.png */; };
 		83CE6C3B1AD2ED91008E9FF5 /* screenshot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C391AD2ED91008E9FF5 /* screenshot4.png */; };
+		83CE6C481AD4D17F008E9FF5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CE6C461AD4D17F008E9FF5 /* Main_iPad.storyboard */; };
 		83E89AC31AD062BB00B4A808 /* SliderKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC21AD062BB00B4A808 /* SliderKnob.png */; };
 		83E89AC71AD0793200B4A808 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC61AD0793200B4A808 /* knob.png */; };
 		83E89AC91AD07C4400B4A808 /* Marker Pen-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */; };
@@ -65,7 +66,7 @@
 		831A70111ACDD98E002218B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		831A70121ACDD98E002218B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		831A70151ACDD98E002218B9 /* PaintBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintBoard.xcdatamodel; sourceTree = "<group>"; };
-		831A701B1ACDD98E002218B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831A701B1ACDD98E002218B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		831A701D1ACDD98E002218B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		831A70201ACDD98E002218B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		831A70261ACDD98E002218B9 /* GoSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +93,7 @@
 		83CE6C351AD2DD12008E9FF5 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		83CE6C381AD2ED91008E9FF5 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
 		83CE6C391AD2ED91008E9FF5 /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot4.png; sourceTree = "<group>"; };
+		83CE6C471AD4D17F008E9FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		83E89AC21AD062BB00B4A808 /* SliderKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderKnob.png; sourceTree = "<group>"; };
 		83E89AC61AD0793200B4A808 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
 		83E89AC81AD07C4400B4A808 /* Marker Pen-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker Pen-white.png"; sourceTree = "<group>"; };
@@ -172,7 +174,8 @@
 				831A703A1ACDDF21002218B9 /* DrawPageViewController.m */,
 				83B3978F1ACE3E8800D33C55 /* MainSelectionViewController.h */,
 				83B397901ACE3E8800D33C55 /* MainSelectionViewController.m */,
-				831A701A1ACDD98E002218B9 /* Main.storyboard */,
+				83CE6C461AD4D17F008E9FF5 /* Main_iPad.storyboard */,
+				831A701A1ACDD98E002218B9 /* Main_iPhone.storyboard */,
 				831A701D1ACDD98E002218B9 /* Images.xcassets */,
 				831A701F1ACDD98E002218B9 /* LaunchScreen.xib */,
 				831A70141ACDD98E002218B9 /* PaintBoard.xcdatamodeld */,
@@ -342,10 +345,11 @@
 				83B3979D1ACF365C00D33C55 /* bar.jpg in Resources */,
 				83E89ACE1AD07E0A00B4A808 /* Reload Filled-50.png in Resources */,
 				83CB600B1AD216CA00C39039 /* Info-50.png in Resources */,
-				831A701C1ACDD98E002218B9 /* Main.storyboard in Resources */,
+				831A701C1ACDD98E002218B9 /* Main_iPhone.storyboard in Resources */,
 				83E89ADE1AD1F28500B4A808 /* launch 2.jpg in Resources */,
 				83B3978E1ACE290600D33C55 /* Marker Pen-50.png in Resources */,
 				83CE6C371AD2DD12008E9FF5 /* screenshot2.png in Resources */,
+				83CE6C481AD4D17F008E9FF5 /* Main_iPad.storyboard in Resources */,
 				83E89AD91AD0D7C800B4A808 /* Checkmark Filled-50.png in Resources */,
 				83CE6C361AD2DD12008E9FF5 /* screenshot1.png in Resources */,
 				831A70211ACDD98E002218B9 /* LaunchScreen.xib in Resources */,
@@ -442,12 +446,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		831A701A1ACDD98E002218B9 /* Main.storyboard */ = {
+		831A701A1ACDD98E002218B9 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				831A701B1ACDD98E002218B9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		831A701F1ACDD98E002218B9 /* LaunchScreen.xib */ = {
@@ -456,6 +460,14 @@
 				831A70201ACDD98E002218B9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		83CE6C461AD4D17F008E9FF5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CE6C471AD4D17F008E9FF5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -552,6 +564,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = GoSketch;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -568,6 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = GoSketch;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

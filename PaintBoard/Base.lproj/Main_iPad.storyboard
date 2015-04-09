@@ -187,16 +187,16 @@ This product is protected by copyright and distributed under licenses restrictin
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mTc-gH-ZpI" userLabel="mainImage">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="-4" y="0.0" width="608" height="600"/>
                             </imageView>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yBv-Au-JZK" userLabel="tempDrawImage">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="-4" y="0.0" width="608" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Marker Pen-50.png" translatesAutoresizingMaskIntoConstraints="NO" id="if2-yc-O25" userLabel="penImage">
                                 <rect key="frame" x="544" y="129" width="50" height="50"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qKb-hp-VAa">
-                                <rect key="frame" x="-4" y="0.0" width="604" height="70"/>
+                                <rect key="frame" x="-4" y="0.0" width="608" height="70"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="zG0-fd-SrX"/>
@@ -394,7 +394,7 @@ This product is protected by copyright and distributed under licenses restrictin
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="oWh-Wz-l5M" secondAttribute="bottom" constant="15" id="11d-wp-Ab6"/>
-                            <constraint firstItem="yBv-Au-JZK" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-16" id="1JD-LG-LcU"/>
+                            <constraint firstItem="yBv-Au-JZK" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-20" id="1JD-LG-LcU"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="Js6-Yj-zXw" secondAttribute="bottom" constant="28" id="3gl-JB-waP"/>
                             <constraint firstItem="Js6-Yj-zXw" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="5" id="4eQ-c5-NfX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="pzY-mv-AhO" secondAttribute="trailing" constant="7" id="5Lx-gn-Jyu"/>
@@ -403,8 +403,8 @@ This product is protected by copyright and distributed under licenses restrictin
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="yBv-Au-JZK" secondAttribute="bottom" id="7B1-gk-tYN"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="Xop-Wp-0Ic" secondAttribute="bottom" constant="23" id="7OH-Vm-zGX"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="MCe-hA-ynt" secondAttribute="bottom" constant="15" id="Aai-fx-fOy"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="qKb-hp-VAa" secondAttribute="trailing" constant="-16" id="F4p-9O-dOu"/>
-                            <constraint firstItem="mTc-gH-ZpI" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-16" id="Ff7-OP-Tf2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qKb-hp-VAa" secondAttribute="trailing" constant="-20" id="F4p-9O-dOu"/>
+                            <constraint firstItem="mTc-gH-ZpI" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-20" id="Ff7-OP-Tf2"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="mTc-gH-ZpI" secondAttribute="bottom" id="Fun-Kd-R9Z"/>
                             <constraint firstItem="oWh-Wz-l5M" firstAttribute="leading" secondItem="kQo-is-PTl" secondAttribute="trailing" constant="20" id="GDm-da-oDA"/>
                             <constraint firstItem="pzY-mv-AhO" firstAttribute="leading" secondItem="m1d-9C-ynb" secondAttribute="trailing" constant="19" id="LDs-p8-YGE"/>
@@ -417,7 +417,7 @@ This product is protected by copyright and distributed under licenses restrictin
                             <constraint firstItem="Xop-Wp-0Ic" firstAttribute="leading" secondItem="JHc-fW-ZPU" secondAttribute="trailing" constant="8" id="atq-6g-sfQ"/>
                             <constraint firstItem="MCe-hA-ynt" firstAttribute="leading" secondItem="oWh-Wz-l5M" secondAttribute="trailing" constant="19" id="cma-Gz-Nkx"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="leading" secondItem="Js6-Yj-zXw" secondAttribute="trailing" constant="10" id="eBW-uo-UO0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yBv-Au-JZK" secondAttribute="trailing" constant="-16" id="geq-Du-j5W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yBv-Au-JZK" secondAttribute="trailing" constant="-20" id="geq-Du-j5W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fsO-sm-Zyv" secondAttribute="trailing" constant="-20" id="hIe-GR-xSi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MCe-hA-ynt" secondAttribute="trailing" constant="7" id="hjl-gr-wEm"/>
                             <constraint firstItem="MCe-hA-ynt" firstAttribute="top" secondItem="pzY-mv-AhO" secondAttribute="bottom" constant="16" id="ieX-vo-qVG"/>
@@ -425,7 +425,7 @@ This product is protected by copyright and distributed under licenses restrictin
                             <constraint firstItem="DHA-xu-9IO" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" id="jeT-pO-7x7"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="top" secondItem="JZ5-vj-IAt" secondAttribute="bottom" constant="21" id="jxO-wO-o1j"/>
                             <constraint firstItem="JZ5-vj-IAt" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="17" id="k7N-ng-pFh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mTc-gH-ZpI" secondAttribute="trailing" constant="-16" id="mbj-qz-ygL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mTc-gH-ZpI" secondAttribute="trailing" constant="-20" id="mbj-qz-ygL"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="leading" secondItem="Js6-Yj-zXw" secondAttribute="trailing" constant="10" id="oIh-qz-4ss"/>
                             <constraint firstItem="6HJ-ch-Csi" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" constant="20" id="oTO-XK-cYZ"/>
                             <constraint firstItem="fsO-sm-Zyv" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-20" id="qRu-Nl-ieu"/>

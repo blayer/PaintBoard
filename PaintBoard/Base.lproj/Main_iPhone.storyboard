@@ -236,8 +236,8 @@ This product is protected by copyright and distributed under licenses restrictin
                                     <action selector="saveAction:" destination="5V0-6x-qPb" eventType="touchUpInside" id="RZV-lx-f0n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4O-ID-atV" userLabel="red">
-                                <rect key="frame" x="418" y="489" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4O-ID-atV" userLabel="red">
+                                <rect key="frame" x="427" y="489" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IrC-Io-FpJ"/>
@@ -251,7 +251,7 @@ This product is protected by copyright and distributed under licenses restrictin
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ5-vj-IAt" userLabel="eraser">
-                                <rect key="frame" x="33" y="489" width="40" height="40"/>
+                                <rect key="frame" x="18" y="489" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Hgs-7D-HXd"/>
@@ -265,8 +265,8 @@ This product is protected by copyright and distributed under licenses restrictin
                                     <action selector="eraseAction:" destination="5V0-6x-qPb" eventType="touchUpInside" id="LLk-c1-fp0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1d-9C-ynb" userLabel="DeepGreen">
-                                <rect key="frame" x="478" y="489" width="40" height="40"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1d-9C-ynb" userLabel="DeepGreen">
+                                <rect key="frame" x="482" y="489" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Hf2-if-T6d"/>
@@ -279,7 +279,7 @@ This product is protected by copyright and distributed under licenses restrictin
                                     <action selector="colorSelected:" destination="5V0-6x-qPb" eventType="touchUpInside" id="Rnj-9a-IIw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzY-mv-AhO" userLabel="blue">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzY-mv-AhO" userLabel="blue">
                                 <rect key="frame" x="537" y="489" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -294,7 +294,7 @@ This product is protected by copyright and distributed under licenses restrictin
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQo-is-PTl" userLabel="green">
-                                <rect key="frame" x="418" y="545" width="40" height="40"/>
+                                <rect key="frame" x="429" y="545" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="2jH-CF-shj"/>
@@ -308,7 +308,7 @@ This product is protected by copyright and distributed under licenses restrictin
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWh-Wz-l5M" userLabel="purple">
-                                <rect key="frame" x="478" y="545" width="40" height="40"/>
+                                <rect key="frame" x="484" y="545" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0R8-vv-gcz"/>
@@ -321,8 +321,8 @@ This product is protected by copyright and distributed under licenses restrictin
                                     <action selector="colorSelected:" destination="5V0-6x-qPb" eventType="touchUpInside" id="fTS-wf-o67"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc7-Jy-ODc" userLabel="Customize">
-                                <rect key="frame" x="359" y="489" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc7-Jy-ODc" userLabel="Customize">
+                                <rect key="frame" x="372" y="489" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="EO1-s6-r4z"/>
@@ -337,9 +337,9 @@ This product is protected by copyright and distributed under licenses restrictin
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.02" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JHc-fW-ZPU">
-                                <rect key="frame" x="44" y="550" width="99" height="31"/>
+                                <rect key="frame" x="34" y="550" width="84" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="95" id="6AM-XX-qpq"/>
+                                    <constraint firstAttribute="width" constant="80" id="6AM-XX-qpq"/>
                                     <constraint firstAttribute="height" constant="30" id="W1z-Zl-xAm"/>
                                 </constraints>
                                 <color key="minimumTrackTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -349,14 +349,14 @@ This product is protected by copyright and distributed under licenses restrictin
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker Pen-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xop-Wp-0Ic">
-                                <rect key="frame" x="149" y="552" width="25" height="25"/>
+                                <rect key="frame" x="119" y="552" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="JGV-RU-eRL"/>
                                     <constraint firstAttribute="width" constant="25" id="oUB-Ea-ddW"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker Pen-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="Js6-Yj-zXw">
-                                <rect key="frame" x="21" y="557" width="15" height="15"/>
+                                <rect key="frame" x="16" y="557" width="15" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="15" id="RBC-kK-Tgs"/>
                                     <constraint firstAttribute="height" constant="15" id="Zsj-NT-0jv"/>
@@ -376,7 +376,7 @@ This product is protected by copyright and distributed under licenses restrictin
                                     <action selector="backAction:" destination="5V0-6x-qPb" eventType="touchUpInside" id="2kY-DK-yaw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCe-hA-ynt" userLabel="yellow">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCe-hA-ynt" userLabel="yellow">
                                 <rect key="frame" x="537" y="545" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -396,8 +396,7 @@ This product is protected by copyright and distributed under licenses restrictin
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="oWh-Wz-l5M" secondAttribute="bottom" constant="15" id="11d-wp-Ab6"/>
                             <constraint firstItem="yBv-Au-JZK" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-16" id="1JD-LG-LcU"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="Js6-Yj-zXw" secondAttribute="bottom" constant="28" id="3gl-JB-waP"/>
-                            <constraint firstItem="Js6-Yj-zXw" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="5" id="4eQ-c5-NfX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pzY-mv-AhO" secondAttribute="trailing" constant="7" id="5Lx-gn-Jyu"/>
+                            <constraint firstItem="Js6-Yj-zXw" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" id="4eQ-c5-NfX"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="top" secondItem="Zc7-Jy-ODc" secondAttribute="bottom" constant="21" id="5TZ-fV-7OZ"/>
                             <constraint firstItem="yBv-Au-JZK" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" id="5gD-4J-LSH"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="yBv-Au-JZK" secondAttribute="bottom" id="7B1-gk-tYN"/>
@@ -406,35 +405,36 @@ This product is protected by copyright and distributed under licenses restrictin
                             <constraint firstAttribute="trailingMargin" secondItem="qKb-hp-VAa" secondAttribute="trailing" constant="-16" id="F4p-9O-dOu"/>
                             <constraint firstItem="mTc-gH-ZpI" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-16" id="Ff7-OP-Tf2"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="mTc-gH-ZpI" secondAttribute="bottom" id="Fun-Kd-R9Z"/>
-                            <constraint firstItem="oWh-Wz-l5M" firstAttribute="leading" secondItem="kQo-is-PTl" secondAttribute="trailing" constant="20" id="GDm-da-oDA"/>
-                            <constraint firstItem="pzY-mv-AhO" firstAttribute="leading" secondItem="m1d-9C-ynb" secondAttribute="trailing" constant="19" id="LDs-p8-YGE"/>
+                            <constraint firstItem="oWh-Wz-l5M" firstAttribute="leading" secondItem="kQo-is-PTl" secondAttribute="trailing" constant="15" id="GDm-da-oDA"/>
+                            <constraint firstItem="pzY-mv-AhO" firstAttribute="leading" secondItem="m1d-9C-ynb" secondAttribute="trailing" constant="15" id="LDs-p8-YGE"/>
                             <constraint firstItem="mTc-gH-ZpI" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" id="OZN-wq-850"/>
                             <constraint firstItem="kQo-is-PTl" firstAttribute="top" secondItem="c4O-ID-atV" secondAttribute="bottom" constant="16" id="P73-vj-grq"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="kQo-is-PTl" secondAttribute="bottom" constant="15" id="Svw-4b-iZE"/>
                             <constraint firstAttribute="centerX" secondItem="6HJ-ch-Csi" secondAttribute="centerX" id="TXA-RY-UNi"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="fsO-sm-Zyv" secondAttribute="bottom" id="ZBb-zG-XWs"/>
                             <constraint firstItem="qKb-hp-VAa" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-20" id="aVp-RK-JJT"/>
-                            <constraint firstItem="Xop-Wp-0Ic" firstAttribute="leading" secondItem="JHc-fW-ZPU" secondAttribute="trailing" constant="8" id="atq-6g-sfQ"/>
-                            <constraint firstItem="MCe-hA-ynt" firstAttribute="leading" secondItem="oWh-Wz-l5M" secondAttribute="trailing" constant="19" id="cma-Gz-Nkx"/>
+                            <constraint firstItem="Xop-Wp-0Ic" firstAttribute="leading" secondItem="JHc-fW-ZPU" secondAttribute="trailing" constant="3" id="atq-6g-sfQ"/>
+                            <constraint firstItem="MCe-hA-ynt" firstAttribute="leading" secondItem="oWh-Wz-l5M" secondAttribute="trailing" constant="15" id="cma-Gz-Nkx"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="leading" secondItem="Js6-Yj-zXw" secondAttribute="trailing" constant="10" id="eBW-uo-UO0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yBv-Au-JZK" secondAttribute="trailing" constant="-16" id="geq-Du-j5W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pzY-mv-AhO" secondAttribute="trailing" constant="5" id="gim-PM-t8Y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fsO-sm-Zyv" secondAttribute="trailing" constant="-20" id="hIe-GR-xSi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MCe-hA-ynt" secondAttribute="trailing" constant="7" id="hjl-gr-wEm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MCe-hA-ynt" secondAttribute="trailing" constant="5" id="hjl-gr-wEm"/>
                             <constraint firstItem="MCe-hA-ynt" firstAttribute="top" secondItem="pzY-mv-AhO" secondAttribute="bottom" constant="16" id="ieX-vo-qVG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xsc-Oy-1cC" secondAttribute="trailing" id="ihf-42-XRE"/>
                             <constraint firstItem="DHA-xu-9IO" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" id="jeT-pO-7x7"/>
                             <constraint firstItem="JHc-fW-ZPU" firstAttribute="top" secondItem="JZ5-vj-IAt" secondAttribute="bottom" constant="21" id="jxO-wO-o1j"/>
-                            <constraint firstItem="JZ5-vj-IAt" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="17" id="k7N-ng-pFh"/>
+                            <constraint firstItem="JZ5-vj-IAt" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="2" id="k7N-ng-pFh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mTc-gH-ZpI" secondAttribute="trailing" constant="-16" id="mbj-qz-ygL"/>
-                            <constraint firstItem="JHc-fW-ZPU" firstAttribute="leading" secondItem="Js6-Yj-zXw" secondAttribute="trailing" constant="10" id="oIh-qz-4ss"/>
+                            <constraint firstItem="JHc-fW-ZPU" firstAttribute="leading" secondItem="Js6-Yj-zXw" secondAttribute="trailing" constant="5" id="oIh-qz-4ss"/>
                             <constraint firstItem="6HJ-ch-Csi" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" constant="20" id="oTO-XK-cYZ"/>
                             <constraint firstItem="fsO-sm-Zyv" firstAttribute="leading" secondItem="9fw-G7-065" secondAttribute="leadingMargin" constant="-20" id="qRu-Nl-ieu"/>
                             <constraint firstItem="wZy-Q6-J8D" firstAttribute="top" secondItem="JHc-fW-ZPU" secondAttribute="bottom" constant="20" id="r26-Qn-uBK"/>
                             <constraint firstItem="qKb-hp-VAa" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" id="rDT-60-Hz5"/>
                             <constraint firstItem="DHA-xu-9IO" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" constant="20" id="tpr-cq-hcf"/>
                             <constraint firstItem="xsc-Oy-1cC" firstAttribute="top" secondItem="9fw-G7-065" secondAttribute="topMargin" constant="20" id="uFz-Ev-7Bg"/>
-                            <constraint firstItem="c4O-ID-atV" firstAttribute="leading" secondItem="Zc7-Jy-ODc" secondAttribute="trailing" constant="19" id="ugs-Fh-Hhs"/>
-                            <constraint firstItem="m1d-9C-ynb" firstAttribute="leading" secondItem="c4O-ID-atV" secondAttribute="trailing" constant="20" id="ul4-DV-Ihz"/>
+                            <constraint firstItem="c4O-ID-atV" firstAttribute="leading" secondItem="Zc7-Jy-ODc" secondAttribute="trailing" constant="15" id="ugs-Fh-Hhs"/>
+                            <constraint firstItem="m1d-9C-ynb" firstAttribute="leading" secondItem="c4O-ID-atV" secondAttribute="trailing" constant="15" id="ul4-DV-Ihz"/>
                             <constraint firstItem="oWh-Wz-l5M" firstAttribute="top" secondItem="m1d-9C-ynb" secondAttribute="bottom" constant="16" id="vHB-6Q-T5E"/>
                         </constraints>
                     </view>

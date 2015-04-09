@@ -1,6 +1,6 @@
 # PaintBoard(removed) 
 PaintBoard has been moved to a new repository. please to go  to  
-[GoSketch](https://github.com/blayer/PaintBoard)
+[GoSketch](https://github.com/blayer/GoSketch)
 
 
 #Installation
